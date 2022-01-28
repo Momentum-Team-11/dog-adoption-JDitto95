@@ -1,19 +1,28 @@
 header{
     background-color:#004175;
-
-    font-family: "Open Sans";
-
-    color:rgb(29, 158, 40);
-
+    font-family: "Open Sans"
+    color:rgb(217, 227, 218);
     padding: 1.5rem;
-
-    padding-left: 0.5rem;
-
-    margin-top
+    padding-left: 0.5rem;}
 
     margin-left::
-
     margin-right::
-
 body{border-color: #89DEEF;}
+h2{
+    color: brown;
+    
+}
+h3{font-size: 30px;
+color: #f10a0aa2;
+text-align: left;
+border-radius: 35px;
+padding-left: 25px;
+background-color: black;}
 
+li {
+    font-size: 35px;
+    color: #f19934a2;
+display: inline;
+padding-left: 25px;
+border-radius: 20px;
+background-color: black;}
