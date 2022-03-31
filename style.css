@@ -1,3 +1,7 @@
+
+
+
+
 header{
     background-color:#004175;
     font-family: "Open Sans"
@@ -5,24 +9,109 @@ header{
     padding: 1.5rem;
     padding-left: 0.5rem;}
 
-    margin-left::
-    margin-right::
-body{border-color: #89DEEF;}
+
 h2{
-    color: brown;
+    color: brown; 
+    background-color: #89DEEF;
+    padding-left: 25px;
+    border-radius: 35px;
     
+
 }
 h3{font-size: 30px;
-color: #f10a0aa2;
+background-color: #89DEEF
 text-align: left;
 border-radius: 35px;
 padding-left: 25px;
-background-color: black;}
+
+}
 
 li {
-    font-size: 35px;
-    color: #f19934a2;
-display: inline;
+font-size: 35px;
+display: inline-flex;justify-content: space-between;
 padding-left: 25px;
 border-radius: 20px;
-background-color: black;}
+background-color: #89DEEF;
+
+}
+
+
+.top-dogs {
+    background-color: white;
+    margin: 1 auto;
+    length:100%;
+    width: 100%;
+    padding: left 0;
+    display:flex;
+    justify-content: center;
+    
+    } 
+
+                
+
+.second-row-dogs {
+    width: 1000px;
+    background-color: white;
+    margin: 1 auto;
+    length:100%;
+    width:100%;
+    padding:left 0;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+            
+}
+            
+.third-row-dogs{
+    background-color: white;
+    margin: 1 auto;
+    length:100%;
+    width: 100%;
+    padding: left 0;
+    display:inline-flex;
+    justify-content: center;
+}
+
+.Footer{
+    display: flex;
+    line-height: 15em;
+}
+ 
+.pops{
+    width: 33%;
+    text-align: center;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+.pop{
+    width: 33%;
+    text-align: center;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+.po{
+    width: 33%;
+    text-align: center;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.pops{
+    background-image: url("starter_files/images/donate.jpg")
+}
+.pops{
+    background-repeat: no-repeat;
+}
+.pop{
+    background-image: url("starter_files/images/volunteer.jpg")
+}
+.pop{
+    background-repeat: no-repeat;
+}
+.po{
+    background-image: url("starter_files/images/location.png")
+}
+.po{
+    background-repeat: no-repeat;
+}
+
